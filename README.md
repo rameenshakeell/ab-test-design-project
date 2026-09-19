@@ -1,9 +1,11 @@
 # A/B Test Design: Trial-to-Paid Conversion Experiment
 
-An end-to-end experiment design and analysis — hypothesis, sample size/power
-calculation, synthetic data simulation, and statistical analysis with a
-primary metric and a guardrail metric — built to demonstrate the full
-controlled-experimentation workflow, not just the statistics test at the end.
+An end-to-end look at one feature, from requirements to results:
+
+- **Requirements definition** — epic, user stories, acceptance criteria, and a process flow diagram, scoping what the feature needs to do before anyone builds or tests it (see [PRODUCT_REQUIREMENTS.md](PRODUCT_REQUIREMENTS.md))
+- **Experiment design** — hypothesis, sample size/power calculation, and a primary + guardrail metric
+- **Analysis** — synthetic data simulation and a real statistical test on the result
+
 
 ## The business problem
 
